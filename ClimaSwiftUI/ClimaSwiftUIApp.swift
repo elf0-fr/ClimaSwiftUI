@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct ClimaSwiftUIApp: App {
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(\.geoService, OpenWeatherService.shared)
+                .environment(\.weatherService, OpenWeatherService.shared)
+                .environment(\.locationService, UserLocationService.shared)
         }
     }
 }
