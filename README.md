@@ -1,6 +1,8 @@
 
 # ClimaSwiftUI
 
+![User Location](ClimaSwiftUI/Documentation/Readme%20Assets/UserLocation.png "User Location")
+
 This project is a modern reimagining of the [sample code](https://github.com/appbrewery/Clima-iOS13) from “The Complete iOS Development Bootcamp”, rebuilt entirely using **SwiftUI**.
 
 With this app, you can get the current weather conditions for any location you search for, or based on your current location.
